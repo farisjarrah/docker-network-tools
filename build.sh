@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build . -t ntool
+docker build . -t network-tools:latest

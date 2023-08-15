@@ -1,4 +1,4 @@
-FROM debian:12
+FROM --platform="linux/arm/v5" debian:12
 
 RUN apt-get update && apt-get install -y apt-utils
 
